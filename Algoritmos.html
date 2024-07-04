@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/Objetivos.css">
+    </head>
+    <body>
+        <div class="Cuerpo">
+        <h1 class="Objetivo">Algoritmos de Búsqueda</h3>
+        <p class="Parrafos"> El objetivo de los algoritmos de búsqueda es encontrar un elemento dentro de un arreglo, estos son usados casi por todas las aplicaciones, a continuación se explicaran los más comunes.<br>
+            <br>La búsqueda lineal consiste en recorrer desde el inicio una lista, comparando cada uno de los elementos con el elemento a buscar. En caso de encontrarse, se devuelve el índice donde se encontró el elemento o un valor booleano verdadero, dependiendo del caso de uso. Este algoritmo es poco usado debido a que existen algoritmos más óptimos para realizar búsquedas, pero puede ser útil cuando se desea encontrar un elemento en un conjunto de datos pequeño y la ganancia de ordenarlo es poca versus realizar la búsqueda directamente. Quizás sea el más fácil de implementar debido a que se reduce a un ciclo for. A continuación, se muestra su implementación en Python:<br>
+            <br><span class="codigo" data-selectable-paragraph="">def sequential_search(target: object, arr: list) -&gt; bool:<br>    match = False<br><br>    for o in arr:<br>        if target is o:<br>            match = True<br>            break<br>            <br>    return match</span><br>
+            <br>La búsqueda binaria es un algoritmo eficiente para encontrar un elemento en una lista ordenada, dividiendo repetidamente el rango de búsqueda a la mitad según si el valor a buscar es mayor o menor al elemento central, hasta que se encuentre el valor o el rango de búsqueda esté vacío; a continuación se muestra su implementación en Python utilizando recursividad:<br>
+            <br> <span  class="codigo" data-selectable-paragraph="">def binary_search(target: object, arr: list, start: int, end: int) -&gt; bool:<br>    print(f'Searching {target} between {arr[start]} and {arr[end - 1]}')<br>    if start &gt; end:<br>        return False<br><br>    middle = (start + end) // 2<br><br>    if arr[middle] == target:<br>        return True<br>    elif arr[middle] &lt; target:<br>        return binary_search(arr, middle + 1, end, target)<br>    else:<br>        return binary_search(arr, start, middle - 1, target)</span><br>
+            <br>Los algoritmos de búsqueda son técnicas fundamentales en programación para encontrar un elemento específico dentro de una estructura de datos, como una lista o un arreglo. La búsqueda lineal recorre la estructura desde el inicio comparando cada elemento con el valor buscado, hasta encontrarlo o llegar al final; mientras que la búsqueda binaria, aplicable a listas ordenadas, divide repetidamente el rango de búsqueda a la mitad según si el valor a buscar es mayor o menor al elemento central, hasta que se encuentre el valor o el rango esté vacío, siendo más eficiente que la búsqueda lineal. Ambos algoritmos tienen sus ventajas y desventajas en términos de complejidad y aplicabilidad, por lo que su elección dependerá del tipo de datos y la estructura a utilizar.
+            <br>
+            
+            </p>
+        </div>
+        <div class="Volver">
+           <a href="Asignaturas.html" class="link">Volver</a>
+            </div>
+    </body>
+    </html>
