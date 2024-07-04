@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.background {
+    min-height: 720px;
+    background-size: cover;
+    background-position: 50%, 50%;
+    background-image: url("images/programacion-2-e1551291144973.jpg");
+}
+
+.Cuadro{
+    text-align: left;
+    font-family: 'Open Sans',sans-serif;
+    padding: 30px 10px;
+    position: relative;
+    background-color: white;
+    height: 320px;
+    width: 520px;
+    top: 155px;
+    bottom: auto;
+   
+    right: auto;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        left:  40%;
+    }
+    100%{
+        opacity: 1;
+        left:  50%;
+    }
+}
+
+.Titulo{
+    font-size: 70px;
+    margin: 15px auto 0 26px;
+}
+
+.Subtitulo{
+   font-size: 18px;
+   color: #1d1d1d;
+   margin: 13px 15px 0 26px;
+}
+
+.Boton{
+    border-radius: 10px;
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    margin: 64px 303px 0 26px;
+    text-decoration: none;
+    padding: 21px 75px 16px 74px;
+    background-color: #77AAD9;
+}

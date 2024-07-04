@@ -1,0 +1,61 @@
+body{
+    background-color: #f2f2f2f2;
+    animation: fadeIn 0.2s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.Cuerpo{
+margin-top: 67px;
+margin-left: 67px;
+margin-right: 67px;
+}
+
+.Objetivo{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #111111;
+    margin: 15;
+}
+
+.Parrafos{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #101010fc;
+    letter-spacing: 2px;
+    text-align: justify;
+    margin: 15;
+}
+
+.Volver{
+    height: 10%;
+    width: 100%;
+}
+
+.link{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 15;
+    text-decoration: NONE;
+    color: #23445D;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.codigo{
+    margin-left: 50;
+    margin-right: 50;
+    position: relative;
+    color: #c31e69;
+    background: #252525;
+    display: block;
+    padding: 10;
+    white-space: pre-wrap;
+}

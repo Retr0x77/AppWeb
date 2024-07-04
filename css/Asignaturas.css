@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    animation: fadeIn 0.5s ease-out forwards;
+    background-color: #102849;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.backgroundSoftware{
+    min-height: 720px;
+    background-image: url(images/Softw.png);
+    background-position: 50%, 50%;
+    background-size: cover;
+}
+
+.backgroundAlgoritmo{
+    min-height: 720px;
+    background-image: url(images/Alogrit.png);
+    background-position: 50%, 50%;
+    background-size: cover;
+}
+
+.front{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 112%;
+    background: #00000088;
+}
+
+.btnDerecha{
+    height: 50px;
+    fill: #d3d3d3;
+    top: 50%;
+    position: absolute;
+    left: 95%;
+
+}
+
+.btnDerechaClick{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btnIzquierda{
+    height: 50px;
+    fill: #d3d3d3;
+    top: 50%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 5px;
+}
+
+
+
+.TituloS{
+    font-size: 70px;
+    color: #ffff;
+    font-family: sans-serif;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.subtituloS{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    width: 75%;
+    left: 12.5%;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.TituloA{
+    font-size: 70px;
+    color: #ffff;
+    font-family: sans-serif;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.subtituloA{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    width: 75%;
+    left: 12.5%;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.btnS{
+    top: 60%;
+    text-align: center;
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    background: #23445D;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Algoritmo{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    transition: left 0.5s ease-in-out;
+}
+
+.Software{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transition: left 0.5s ease-in-out;
+}
+
+.btnA{
+    top: 60%;
+    text-align: center;
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    background: #402B59;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
